@@ -1,10 +1,11 @@
 # Chapter 3 - Day 2
 
 1.
+```
 pub contract Profiles {
   pub var id: UInt16;
   pub let arrayOfProfiles: @[Profile]
-  pub var dictOfProfiles: @{UInt16: Profile}
+  pub var dictOfProfiles: @{UInt16: Profile}`
 
   pub resource Profile {
       pub let name: String
@@ -45,3 +46,4 @@ pub contract Profiles {
     self.dictOfProfiles <- {}
   }
 }
+```
