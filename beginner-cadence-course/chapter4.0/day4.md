@@ -3,8 +3,7 @@
 1. Take our NFT contract so far and add comments to every single resource or function explaining what it's doing in your own words.
 2. 
 
-```
-
+```cadence
 pub contract CryptoPoops {
     pub var totalSupply: UInt64
 
