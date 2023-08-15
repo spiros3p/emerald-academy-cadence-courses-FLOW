@@ -14,10 +14,13 @@ FIXED
 import ITest from someAccount
 //
 
-pub contract Test {
+//FIX
+pub contract Test: ITest {
   pub var number: Int
   
   pub fun updateNumber(newNumber: Int) {
+    // this is a logical error, we could change it to
+    // self.number = newNumber
     self.number = 5
   }
 
