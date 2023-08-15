@@ -2,8 +2,12 @@
 
 1. Explain why standards can be beneficial to the Flow ecosystem.
 
+Standards are beneficial for a smart contract because they act as 'Rules'.
+Different contracts with similar case, like an NFT one, can follow some standard rules, so that each contract can be easily consumed by other Dapps with no extra effort for each different NFT contract
 
-2. What is YOUR favourite food?
+2. What is YOUR favourite food?   
+
+
 any recipe with tortellini
 
 4. Please fix this code (Hint: There are two things wrong):
